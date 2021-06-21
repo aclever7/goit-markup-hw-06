@@ -25,7 +25,9 @@
         <nav>
           <ul class="pagination">
             <li class="pagination-item">
-              <a href="./index.html" class="link pagination-link current">Студия</a>
+              <a href="./index.html" class="link pagination-link current"
+                >Студия</a
+              >
             </li>
             <li class="pagination-item">
               <a href="./portfolio.html" class="link pagination-link"
@@ -64,7 +66,9 @@
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button data-modal-open class="hero-btn" type="button">Заказать услугу</button>
+          <button data-modal-open class="hero-btn" type="button">
+            Заказать услугу
+          </button>
         </div>
       </section>
       <section class="section">
@@ -127,7 +131,7 @@
           <h2 class="wedo-title">Чем мы занимаемся</h2>
           <ul class="wedo-cards">
             <li class="wedo-pic">
-              <img src="./images/box-first.jpg" alt="coding" width="370"/>
+              <img src="./images/box-first.jpg" alt="coding" width="370" />
               <p class="wedo-description">Десктопные приложения</p>
             </li>
             <li class="wedo-pic">
@@ -139,7 +143,7 @@
               <p class="wedo-description">Мобильные приложения</p>
             </li>
             <li class="wedo-pic">
-              <img src="./images/box-third.jpg" alt="design" width="370"/>
+              <img src="./images/box-third.jpg" alt="design" width="370" />
               <p class="wedo-description">Дизайнерские решения</p>
             </li>
           </ul>
@@ -389,41 +393,61 @@
                   >
                 </li>
               </ul>
-              </div>
-              <div class="footer-second-part">
-                <p class="footer-socials-text">присоединяйтесь</p>
-                <ul class="footer-socials-list">
-                  <li class="footer-social-item">
-                    <a href="" class="footer-social-link">
-                      <svg class="footer-social-icon">
-                        <use href="./images/icons.svg#instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-social-item">
-                    <a href="" class="footer-social-link">
-                      <svg class="footer-social-icon">
-                        <use href="./images/icons.svg#twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-social-item">
-                    <a href="" class="footer-social-link">
-                      <svg class="footer-social-icon">
-                        <use href="./images/icons.svg#facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="footer-social-item">
-                    <a href="" class="footer-social-link">
-                      <svg class="footer-social-icon">
-                        <use href="./images/icons.svg#linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </adress>
+          </div>
+          <div class="footer-second-part">
+            <p class="footer-socials-text">присоединяйтесь</p>
+            <ul class="footer-socials-list">
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-social-icon">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-social-icon">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-social-icon">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-social-icon">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-third-part">
+            <form class="footer-subscribe-form">
+              <label class="footer-form-item">
+                <p class="footer-subscribe-text">подпишитесь на рассылку</p>
+                <input
+                  class="footer-subscribe-input"
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder="E-mail"
+                />
+                <button class="footer-subscribe-button" type="submit">
+                  Подписаться
+                  <svg class="footer-subscribe-icon">
+                    <use href="./images/icons.svg#subscribe"></use>
+                  </svg>
+                </button>
+              </label>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -434,6 +458,53 @@
             <use href="./images/icons.svg#modal-close"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <p class="modal-title">
+            <b>Оставьте свои данные, мы вам перезвоним</b>
+          </p>
+          <label class="modal-form-item">
+            <p class="modal-form-text">Имя</p>
+            <input class="modal-form-input" type="text" name="name" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#modal-contact"></use>
+            </svg>
+          </label>
+          <label class="modal-form-item">
+            <p class="modal-form-text">Телефон</p>
+            <input class="modal-form-input" type="tel" name="tel" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#modal-phone"></use>
+            </svg>
+          </label>
+          <label class="modal-form-item">
+            <p class="modal-form-text">Почта</p>
+            <input class="modal-form-input" type="email" name="email" />
+            <svg class="modal-form-icon">
+              <use href="./images/icons.svg#modal-mail"></use>
+            </svg>
+          </label>
+          <label class="modal-form-item modal-send">
+            <p class="modal-form-text">Комментарий</p>
+            <textarea
+              class="modal-form-textarea"
+              name="modal-send"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+          <label class="modal-form-checkbox">
+            <input
+              class="form-checkbox-input"
+              type="checkbox"
+              name="checkbox"
+            />
+            <p class="form-checkbox-text">
+              <span class="form-checkbox-icon"></span>
+              Соглашаюсь с рассылкой и принимаю
+              <a href="" class="checkbox-text-link">Условия договора</a>
+            </p>
+          </label>
+          <button class="modal-form-btn" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
