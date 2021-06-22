@@ -535,9 +535,12 @@ img {
   fill: currentColor;
 }
 
+.footer-third-part {
+  margin-left: 93px;
+}
+
 .footer-subscribe-form {
   position: relative;
-  margin-left: 93px;
   width: 570px;
   color: var(--white-color);
 }
